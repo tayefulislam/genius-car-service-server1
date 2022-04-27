@@ -181,6 +181,10 @@ app.get('/', (req, res) => {
     res.send('server is runnding')
 })
 
+app.get('/hero', (req, res) => {
+    res.send('hero yooooooooooooooooooooo')
+})
+
 
 
 app.listen(port, () => {
